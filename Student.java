@@ -1,5 +1,9 @@
 public class Student {
-    public static void main(String[] args) {
-        System.out.println("new file Student");
-    }
+   public Student(){
+    System.out.println("creating new object");
+   }
+
+   public void sayHello(){
+    System.out.println("new student created ");
+   }
 }

@@ -7,5 +7,8 @@ public class main {
         System.out.println("output is ");
         System.out.println(new Date());
         System.out.println("added new line ");
+
+        Student student = new Student();
+        student.sayHello();
     }
 }
